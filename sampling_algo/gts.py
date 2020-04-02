@@ -34,7 +34,7 @@ def generalization_features(g=None, nodes=None, kind='add_node'):
     return fts
 
 
-# maximum prediction based sampler (no exploration)
+# maximum prediction based sampler (naive implementation of gts sampler)
 def prediction_sampler(g, init_sample, feature_fn, eval_fn, prediction_fn, sample_size=None, reservoir_size=1000, recording=True, verbose=True):
 
     # init
