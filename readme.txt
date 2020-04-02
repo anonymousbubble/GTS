@@ -19,7 +19,7 @@ This code has three components:
 2) validating the learned samplers for choosing the best sampler = GTS : to be released.
 3) testing the GTS sampler on unseen graph. : released
 
-For real-world graph families, we maintain 40%, 40%, 20% split. 
+For real-world graph families, we maintain 60%, 20%, 20% split. 
 
 
 ######## ./dataset ########
