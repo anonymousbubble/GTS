@@ -20,9 +20,9 @@ The graph families can be generated using synthetic network generators like Erdo
 In this implementation, we share the SBM graph generator code in [dataset](https://github.com/anonymousbubble/GTS/tree/master/dataset) folder.
 
 
-## Training and Validation
+## Training
 
-The code to train and validating GTS on a graph family, which corresponds to finding the best found set of hyper-paramters will be released later. 
+The code for training and validating GTS on a graph family, which corresponds to finding the best found set of hyper-paramters, will be released later. 
 
 In the current version, we release a pre-trained sampling policy in `sampling_algo/` directory. 
 
