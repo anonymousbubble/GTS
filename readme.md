@@ -20,25 +20,28 @@ The graph families can be generated using synthetic network generators like Erdo
 In this implementation, we share the SBM graph generator code in [dataset](https://github.com/anonymousbubble/GTS/tree/master/dataset) folder.
 
 
+## Training and Validation
 
-######## main_task.py ########
-This code has three components:
-1) train for learning different samplers using different policy functions (lr, rr, nr & svr) : to be released.
-2) validating the learned samplers for choosing the best sampler = GTS : to be released.
-3) testing the GTS sampler on unseen graph. : released
+The code to train and validating GTS on a graph family, which corresponds to finding the best found set of hyper-paramters will be released later. 
 
-For real-world graph families, we maintain 60%, 20%, 20% split. 
+In the current version, we release a pre-trained sampling policy in `sampling_algo/` directory. 
 
 
-######## ./dataset ########
+## Baseline
 
-Code for generating synthetic graph families or loading real-world graph families.
+We release the code for testing the baseline algorithms in `sampling_algo/baselines.py` code. 
 
 
+## Testing
 
-######## ./sampling_algo ########
+To test the samplers on SBM graph family and community coverage task (smaller value is better), run:
 
-Code for learning and executing sampler. We provide pre-trained model for GTS in this implementation. Train, validation and testing code will be released on publication. 
+```
+  $ python main_task.py 
+```
 
+## Author
+
+- anonymous
 
 
