@@ -17,7 +17,7 @@ This package contains a pre-trained implementation of GTS. The full implementati
 
 The graph families can be generated using synthetic network generators like Erdos Renyi, Barabasi and Stochastic Block Model. The real world graph families can be found in network collections such as [Network Repository](https://snap.stanford.edu/data/index.html), [SNAP](https://snap.stanford.edu/data/index.html) and [KONECT](http://konect.uni-koblenz.de/).
 
-In this implementation, we share the SBM graph generator code in [dataset](https://github.com/anonymousbubble/GTS/tree/master/dataset) folder.
+In this implementation, we share the SBM graph generator code in `dataset` directory.
 
 
 ## Training
